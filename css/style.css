@@ -108,3 +108,16 @@ body {
 @keyframes spin {
   100% { transform: rotate(360deg); }
 }
+@media (max-width: 1460px) {
+  div {
+      flex-direction: column;
+  }
+  .botones {
+    flex-direction: column;
+  }
+  .p {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+}
